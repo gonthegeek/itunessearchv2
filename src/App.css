@@ -1,0 +1,27 @@
+body {
+    background-color: #1A1A1D;
+    color: #950740;
+    margin: 100px;
+    font-family: 'Roboto';
+}
+
+h3{
+    color: #f0f8ff;
+}
+
+.MuiPaper-outlined {
+    border: .5px solid rgba(255, 255, 255);
+}
+
+
+
+/* body {
+    background-color: #2D283E;
+    color: #802BB1;
+    margin: 100px;
+    font-family: 'Roboto';
+}
+
+h3{
+    color: #D1D7E0;
+} */
