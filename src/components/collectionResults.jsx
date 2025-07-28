@@ -10,7 +10,9 @@ const Collection = () => {
     const dispatch =useDispatch()
 
     const collection = useSelector(store => store.collection.array)
-    console.log(collection);
+    if (process.env.NODE_ENV === 'development') {
+        console.log(collection);
+    }
 
 
     useEffect(() => {
